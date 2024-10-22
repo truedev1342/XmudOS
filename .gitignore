@@ -1,0 +1,13 @@
+# compiled output
+/x64
+/exe
+/XmudOS/x64
+/XmudOS/Goods/x64
+/XmudOS/map/x64
+/XmudOS/Npc/x64
+/XmudOS/Skill/x64
+/XmudOS/lib
+
+# OS
+.DS_Store
+.vs

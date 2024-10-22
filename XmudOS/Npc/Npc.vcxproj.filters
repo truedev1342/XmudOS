@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="map\dainty\N_BankMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_BiaoTou.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_ChinYunWai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_Disciple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_PawnMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_Runner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_Smith.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_WeaponSeller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\N_YunBing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Nem_YiLin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Ngb_Dizi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Nhs_ChinZuYang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Nsl_KongMin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Nwd_WangKangYu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Nxx_WeaponMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\dainty\Nzm_DiziW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\emei\Nem_XiaoNiGu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\emei\Nem_YiHe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\guanhua\CEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\guanhua\n_eventnpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\huashan\Nhs_ShiJie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_Bing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_Boy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_Child.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_DaoKe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_Girl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_JiaDing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_JianKe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_LiuMang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_LiuMangTou.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_TiaoFu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_TuFei.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_TuFeitou.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_WuJiang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_XiangKe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_XiaoEr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_YaYi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\public\Npub_YouKe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\shaolin\Nsl_Dao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\shaolin\Nsl_DaoChen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\shaolin\Nsl_Daosheng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\shaolin\Nsl_DaoXiang2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\shaolin\Nsl_SaMi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\waei\N_Girl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\waei\N_OldWoman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\waei\N_OldWoman2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\waei\N_Seller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\waei\N_XLiumang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\wudang\Nwd_DaoTong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\wudang\Nwd_XiaoCui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\xingxiu\Nxx_Dizi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map\yangzhou\Nyz_AQingSao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="map\dainty\N_BankMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_BiaoTou.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_ChinYunWai.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_Disciple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_PawnMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_Runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_Smith.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_WeaponSeller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\N_YunBing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Nem_YiLin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Ngb_Dizi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Nhs_ChinZuYang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Nsl_KongMin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Nwd_WangKangYu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Nxx_WeaponMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\dainty\Nzm_DiziW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\emei\Nem_XiaoNiGu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\emei\Nem_YiHe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\guanhua\CEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\guanhua\CEventCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\guanhua\N_EventNpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\huashan\Nhs_ShiJie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_Bing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_Boy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_Child.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_DaoKe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_Girl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_JiaDing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_JianKe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_LiuMang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_LiuMangTou.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_TiaoFu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_TuFei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_TuFeitou.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_WuJiang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_XiangKe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_XiaoEr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_YaYi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\public\Npub_YouKe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\shaolin\Nsl_Dao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\shaolin\Nsl_DaoChen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\shaolin\Nsl_Daosheng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\shaolin\Nsl_DaoXiang2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\shaolin\Nsl_SaMi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\waei\N_Girl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\waei\N_Host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\waei\N_OldWoman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\waei\N_OldWoman2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\waei\N_Seller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\waei\N_XLiumang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\wudang\Nwd_DaoTong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\wudang\Nwd_XiaoCui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\xingxiu\Nxx_Dizi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map\yangzhou\Nyz_AQingSao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

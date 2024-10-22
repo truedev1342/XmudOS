@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{af322d6a-8e70-4e03-be99-6ceedebfe7de}</ProjectGuid>
+    <RootNamespace>Npc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AFXDLL;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>../lib/$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_AFXDLL;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>../lib/$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="map\dainty\Nem_YiLin.cpp" />
+    <ClCompile Include="map\dainty\Ngb_Dizi.cpp" />
+    <ClCompile Include="map\dainty\Nhs_ChinZuYang.cpp" />
+    <ClCompile Include="map\dainty\Nsl_KongMin.cpp" />
+    <ClCompile Include="map\dainty\Nwd_WangKangYu.cpp" />
+    <ClCompile Include="map\dainty\Nxx_WeaponMgr.cpp" />
+    <ClCompile Include="map\dainty\Nzm_DiziW.cpp" />
+    <ClCompile Include="map\dainty\N_BankMaster.cpp" />
+    <ClCompile Include="map\dainty\N_BiaoTou.cpp" />
+    <ClCompile Include="map\dainty\N_ChinYunWai.cpp" />
+    <ClCompile Include="map\dainty\N_Disciple.cpp" />
+    <ClCompile Include="map\dainty\N_PawnMaster.cpp" />
+    <ClCompile Include="map\dainty\N_Runner.cpp" />
+    <ClCompile Include="map\dainty\N_Smith.cpp" />
+    <ClCompile Include="map\dainty\N_WeaponSeller.cpp" />
+    <ClCompile Include="map\dainty\N_YunBing.cpp" />
+    <ClCompile Include="map\emei\Nem_XiaoNiGu.cpp" />
+    <ClCompile Include="map\emei\Nem_YiHe.cpp" />
+    <ClCompile Include="map\guanhua\CEvent.cpp" />
+    <ClCompile Include="map\guanhua\n_eventnpc.cpp" />
+    <ClCompile Include="map\huashan\Nhs_ShiJie.cpp" />
+    <ClCompile Include="map\public\Npub_Bing.cpp" />
+    <ClCompile Include="map\public\Npub_Boy.cpp" />
+    <ClCompile Include="map\public\Npub_Child.cpp" />
+    <ClCompile Include="map\public\Npub_DaoKe.cpp" />
+    <ClCompile Include="map\public\Npub_Girl.cpp" />
+    <ClCompile Include="map\public\Npub_JiaDing.cpp" />
+    <ClCompile Include="map\public\Npub_JianKe.cpp" />
+    <ClCompile Include="map\public\Npub_LiuMang.cpp" />
+    <ClCompile Include="map\public\Npub_LiuMangTou.cpp" />
+    <ClCompile Include="map\public\Npub_TiaoFu.cpp" />
+    <ClCompile Include="map\public\Npub_TuFei.cpp" />
+    <ClCompile Include="map\public\Npub_TuFeitou.cpp" />
+    <ClCompile Include="map\public\Npub_WuJiang.cpp" />
+    <ClCompile Include="map\public\Npub_XiangKe.cpp" />
+    <ClCompile Include="map\public\Npub_XiaoEr.cpp" />
+    <ClCompile Include="map\public\Npub_YaYi.cpp" />
+    <ClCompile Include="map\public\Npub_YouKe.cpp" />
+    <ClCompile Include="map\shaolin\Nsl_Dao.cpp" />
+    <ClCompile Include="map\shaolin\Nsl_DaoChen.cpp" />
+    <ClCompile Include="map\shaolin\Nsl_Daosheng.cpp" />
+    <ClCompile Include="map\shaolin\Nsl_DaoXiang2.cpp" />
+    <ClCompile Include="map\shaolin\Nsl_SaMi.cpp" />
+    <ClCompile Include="map\waei\N_Girl.cpp" />
+    <ClCompile Include="map\waei\N_OldWoman.cpp" />
+    <ClCompile Include="map\waei\N_OldWoman2.cpp" />
+    <ClCompile Include="map\waei\N_Seller.cpp" />
+    <ClCompile Include="map\waei\N_XLiumang.cpp" />
+    <ClCompile Include="map\wudang\Nwd_DaoTong.cpp" />
+    <ClCompile Include="map\wudang\Nwd_XiaoCui.cpp" />
+    <ClCompile Include="map\xingxiu\Nxx_Dizi.cpp" />
+    <ClCompile Include="map\yangzhou\Nyz_AQingSao.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="map\dainty\Nem_YiLin.h" />
+    <ClInclude Include="map\dainty\Ngb_Dizi.h" />
+    <ClInclude Include="map\dainty\Nhs_ChinZuYang.h" />
+    <ClInclude Include="map\dainty\Nsl_KongMin.h" />
+    <ClInclude Include="map\dainty\Nwd_WangKangYu.h" />
+    <ClInclude Include="map\dainty\Nxx_WeaponMgr.h" />
+    <ClInclude Include="map\dainty\Nzm_DiziW.h" />
+    <ClInclude Include="map\dainty\N_BankMaster.h" />
+    <ClInclude Include="map\dainty\N_BiaoTou.h" />
+    <ClInclude Include="map\dainty\N_ChinYunWai.h" />
+    <ClInclude Include="map\dainty\N_Disciple.h" />
+    <ClInclude Include="map\dainty\N_PawnMaster.h" />
+    <ClInclude Include="map\dainty\N_Runner.h" />
+    <ClInclude Include="map\dainty\N_Smith.h" />
+    <ClInclude Include="map\dainty\N_WeaponSeller.h" />
+    <ClInclude Include="map\dainty\N_YunBing.h" />
+    <ClInclude Include="map\emei\Nem_XiaoNiGu.h" />
+    <ClInclude Include="map\emei\Nem_YiHe.h" />
+    <ClInclude Include="map\guanhua\CEvent.h" />
+    <ClInclude Include="map\guanhua\CEventCommon.h" />
+    <ClInclude Include="map\guanhua\N_EventNpc.h" />
+    <ClInclude Include="map\huashan\Nhs_ShiJie.h" />
+    <ClInclude Include="map\public\Npub_Bing.h" />
+    <ClInclude Include="map\public\Npub_Boy.h" />
+    <ClInclude Include="map\public\Npub_Child.h" />
+    <ClInclude Include="map\public\Npub_DaoKe.h" />
+    <ClInclude Include="map\public\Npub_Girl.h" />
+    <ClInclude Include="map\public\Npub_JiaDing.h" />
+    <ClInclude Include="map\public\Npub_JianKe.h" />
+    <ClInclude Include="map\public\Npub_LiuMang.h" />
+    <ClInclude Include="map\public\Npub_LiuMangTou.h" />
+    <ClInclude Include="map\public\Npub_TiaoFu.h" />
+    <ClInclude Include="map\public\Npub_TuFei.h" />
+    <ClInclude Include="map\public\Npub_TuFeitou.h" />
+    <ClInclude Include="map\public\Npub_WuJiang.h" />
+    <ClInclude Include="map\public\Npub_XiangKe.h" />
+    <ClInclude Include="map\public\Npub_XiaoEr.h" />
+    <ClInclude Include="map\public\Npub_YaYi.h" />
+    <ClInclude Include="map\public\Npub_YouKe.h" />
+    <ClInclude Include="map\shaolin\Nsl_Dao.h" />
+    <ClInclude Include="map\shaolin\Nsl_DaoChen.h" />
+    <ClInclude Include="map\shaolin\Nsl_Daosheng.h" />
+    <ClInclude Include="map\shaolin\Nsl_DaoXiang2.h" />
+    <ClInclude Include="map\shaolin\Nsl_SaMi.h" />
+    <ClInclude Include="map\waei\N_Girl.h" />
+    <ClInclude Include="map\waei\N_Host.h" />
+    <ClInclude Include="map\waei\N_OldWoman.h" />
+    <ClInclude Include="map\waei\N_OldWoman2.h" />
+    <ClInclude Include="map\waei\N_Seller.h" />
+    <ClInclude Include="map\waei\N_XLiumang.h" />
+    <ClInclude Include="map\wudang\Nwd_DaoTong.h" />
+    <ClInclude Include="map\wudang\Nwd_XiaoCui.h" />
+    <ClInclude Include="map\xingxiu\Nxx_Dizi.h" />
+    <ClInclude Include="map\yangzhou\Nyz_AQingSao.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
