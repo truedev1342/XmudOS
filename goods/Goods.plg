@@ -1,0 +1,231 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XmudOS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/XmudOS.res" /d "NDEBUG" /d "_AFXDLL" "D:\emprise\XmudOS\XmudOS.rc"" 
+Creating temporary file "C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP674.tmp" with contents
+[
+/nologo /MD /GR /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/XmudOS.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\emprise\XmudOS\ActiveObject.cpp"
+"D:\emprise\XmudOS\CmdApprentice.cpp"
+"D:\emprise\XmudOS\CmdAsk.cpp"
+"D:\emprise\XmudOS\CmdChangeMap.cpp"
+"D:\emprise\XmudOS\CmdChannelTalk.cpp"
+"D:\emprise\XmudOS\CmdCreateNewPlayer.cpp"
+"D:\emprise\XmudOS\CmdDaZuoAndTuNa.cpp"
+"D:\emprise\XmudOS\CmdDrinkAndEat.cpp"
+"D:\emprise\XmudOS\CmdEmote.cpp"
+"D:\emprise\XmudOS\CmdGiveDropPick.cpp"
+"D:\emprise\XmudOS\CmdKillProc.cpp"
+"D:\emprise\XmudOS\CmdLearn.cpp"
+"D:\emprise\XmudOS\CmdOffLine.cpp"
+"D:\emprise\XmudOS\CmdPlayerLogon.cpp"
+"D:\emprise\XmudOS\CmdPlayerLogonGetData.cpp"
+"D:\emprise\XmudOS\CmdPractice.cpp"
+"D:\emprise\XmudOS\CmdUserLogon.cpp"
+"D:\emprise\XmudOS\CmdWieldAndUnW.cpp"
+"D:\emprise\XmudOS\combat.cpp"
+"D:\emprise\XmudOS\commandcheck.cpp"
+"D:\emprise\XmudOS\Condition.cpp"
+"D:\emprise\XmudOS\Fight.cpp"
+"D:\emprise\XmudOS\hash.cpp"
+"D:\emprise\XmudOS\HeartBeat.cpp"
+"D:\emprise\XmudOS\LoadAllNeedFill.cpp"
+"D:\emprise\XmudOS\LoadGameFile.cpp"
+"D:\emprise\XmudOS\MainWnd.cpp"
+"D:\emprise\XmudOS\npc\map\guanhua\N_EventNpc.cpp"
+"D:\emprise\XmudOS\PlayerInfo.cpp"
+"D:\emprise\XmudOS\ShowMsg.cpp"
+"D:\emprise\XmudOS\SpecialActEnd.cpp"
+"D:\emprise\XmudOS\ThreadPlayer.cpp"
+"D:\emprise\XmudOS\XmudOS.cpp"
+"D:\emprise\XmudOS\wgs\Common.cpp"
+"D:\emprise\XmudOS\wgs\descrypt.cpp"
+"D:\emprise\XmudOS\wgs\DS_API.cpp"
+"D:\emprise\XmudOS\wgs\DS_Task.cpp"
+"D:\emprise\XmudOS\wgs\SockData.cpp"
+"D:\emprise\XmudOS\wgs\StreamSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP674.tmp" 
+Creating temporary file "C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP675.tmp" with contents
+[
+/nologo /MD /GR /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/XmudOS.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\emprise\XmudOS\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP675.tmp" 
+Creating temporary file "C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP676.tmp" with contents
+[
+lib\Goods.lib lib\Npc.lib lib\Skill.lib lib\map.lib /nologo /subsystem:windows /incremental:yes /pdb:"Release/XmudOS_Release.pdb" /machine:I386 /out:"..\exe\XmudOS_Release.exe" 
+.\Release\ActiveObject.obj
+.\Release\CmdApprentice.obj
+.\Release\CmdAsk.obj
+.\Release\CmdChangeMap.obj
+.\Release\CmdChannelTalk.obj
+.\Release\CmdCreateNewPlayer.obj
+.\Release\CmdDaZuoAndTuNa.obj
+.\Release\CmdDrinkAndEat.obj
+.\Release\CmdEmote.obj
+.\Release\CmdGiveDropPick.obj
+.\Release\CmdKillProc.obj
+.\Release\CmdLearn.obj
+.\Release\CmdOffLine.obj
+.\Release\CmdPlayerLogon.obj
+.\Release\CmdPlayerLogonGetData.obj
+.\Release\CmdPractice.obj
+.\Release\CmdUserLogon.obj
+.\Release\CmdWieldAndUnW.obj
+.\Release\combat.obj
+.\Release\commandcheck.obj
+.\Release\Condition.obj
+.\Release\Fight.obj
+.\Release\hash.obj
+.\Release\HeartBeat.obj
+.\Release\LoadAllNeedFill.obj
+.\Release\LoadGameFile.obj
+.\Release\MainWnd.obj
+.\Release\N_EventNpc.obj
+.\Release\PlayerInfo.obj
+.\Release\ShowMsg.obj
+.\Release\SpecialActEnd.obj
+.\Release\StdAfx.obj
+.\Release\ThreadPlayer.obj
+.\Release\XmudOS.obj
+.\Release\Common.obj
+.\Release\descrypt.obj
+.\Release\DS_API.obj
+.\Release\DS_Task.obj
+.\Release\SockData.obj
+.\Release\StreamSocket.obj
+.\Release\XmudOS.res
+]
+Creating command line "link.exe @C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP676.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+E:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\shlguid.h(181) : fatal error C1083: Cannot open include file: 'exdisp.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+XmudOS_Release.exe - 1 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: XmudOS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Debug/XmudOS.res" /d "_DEBUG" /d "_AFXDLL" "D:\emprise\XmudOS\XmudOS.rc"" 
+Creating temporary file "C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP677.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/XmudOS.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\emprise\XmudOS\ActiveObject.cpp"
+"D:\emprise\XmudOS\CmdApprentice.cpp"
+"D:\emprise\XmudOS\CmdAsk.cpp"
+"D:\emprise\XmudOS\CmdChangeMap.cpp"
+"D:\emprise\XmudOS\CmdChannelTalk.cpp"
+"D:\emprise\XmudOS\CmdCreateNewPlayer.cpp"
+"D:\emprise\XmudOS\CmdDaZuoAndTuNa.cpp"
+"D:\emprise\XmudOS\CmdDrinkAndEat.cpp"
+"D:\emprise\XmudOS\CmdEmote.cpp"
+"D:\emprise\XmudOS\CmdGiveDropPick.cpp"
+"D:\emprise\XmudOS\CmdKillProc.cpp"
+"D:\emprise\XmudOS\CmdLearn.cpp"
+"D:\emprise\XmudOS\CmdOffLine.cpp"
+"D:\emprise\XmudOS\CmdPlayerLogon.cpp"
+"D:\emprise\XmudOS\CmdPlayerLogonGetData.cpp"
+"D:\emprise\XmudOS\CmdPractice.cpp"
+"D:\emprise\XmudOS\CmdUserLogon.cpp"
+"D:\emprise\XmudOS\CmdWieldAndUnW.cpp"
+"D:\emprise\XmudOS\combat.cpp"
+"D:\emprise\XmudOS\commandcheck.cpp"
+"D:\emprise\XmudOS\Condition.cpp"
+"D:\emprise\XmudOS\Fight.cpp"
+"D:\emprise\XmudOS\hash.cpp"
+"D:\emprise\XmudOS\HeartBeat.cpp"
+"D:\emprise\XmudOS\LoadAllNeedFill.cpp"
+"D:\emprise\XmudOS\LoadGameFile.cpp"
+"D:\emprise\XmudOS\MainWnd.cpp"
+"D:\emprise\XmudOS\npc\map\guanhua\N_EventNpc.cpp"
+"D:\emprise\XmudOS\PlayerInfo.cpp"
+"D:\emprise\XmudOS\ShowMsg.cpp"
+"D:\emprise\XmudOS\SpecialActEnd.cpp"
+"D:\emprise\XmudOS\ThreadPlayer.cpp"
+"D:\emprise\XmudOS\XmudOS.cpp"
+"D:\emprise\XmudOS\wgs\Common.cpp"
+"D:\emprise\XmudOS\wgs\descrypt.cpp"
+"D:\emprise\XmudOS\wgs\DS_API.cpp"
+"D:\emprise\XmudOS\wgs\DS_Task.cpp"
+"D:\emprise\XmudOS\wgs\SockData.cpp"
+"D:\emprise\XmudOS\wgs\StreamSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP677.tmp" 
+Creating temporary file "C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP678.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/XmudOS.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\emprise\XmudOS\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP678.tmp" 
+Creating temporary file "C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP679.tmp" with contents
+[
+lib\goods.lib lib\npc.lib lib\map.lib lib\skill.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/XmudOS_debug.pdb" /debug /machine:I386 /nodefaultlib:"libcmt.lib" /nodefaultlib:"nafxcw.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib:"mfcs42.lib" /nodefaultlib:"mfc42.lib" /out:"..\exe\XmudOS_debug.exe" 
+.\Debug\ActiveObject.obj
+.\Debug\CmdApprentice.obj
+.\Debug\CmdAsk.obj
+.\Debug\CmdChangeMap.obj
+.\Debug\CmdChannelTalk.obj
+.\Debug\CmdCreateNewPlayer.obj
+.\Debug\CmdDaZuoAndTuNa.obj
+.\Debug\CmdDrinkAndEat.obj
+.\Debug\CmdEmote.obj
+.\Debug\CmdGiveDropPick.obj
+.\Debug\CmdKillProc.obj
+.\Debug\CmdLearn.obj
+.\Debug\CmdOffLine.obj
+.\Debug\CmdPlayerLogon.obj
+.\Debug\CmdPlayerLogonGetData.obj
+.\Debug\CmdPractice.obj
+.\Debug\CmdUserLogon.obj
+.\Debug\CmdWieldAndUnW.obj
+.\Debug\combat.obj
+.\Debug\commandcheck.obj
+.\Debug\Condition.obj
+.\Debug\Fight.obj
+.\Debug\hash.obj
+.\Debug\HeartBeat.obj
+.\Debug\LoadAllNeedFill.obj
+.\Debug\LoadGameFile.obj
+.\Debug\MainWnd.obj
+.\Debug\N_EventNpc.obj
+.\Debug\PlayerInfo.obj
+.\Debug\ShowMsg.obj
+.\Debug\SpecialActEnd.obj
+.\Debug\StdAfx.obj
+.\Debug\ThreadPlayer.obj
+.\Debug\XmudOS.obj
+.\Debug\Common.obj
+.\Debug\descrypt.obj
+.\Debug\DS_API.obj
+.\Debug\DS_Task.obj
+.\Debug\SockData.obj
+.\Debug\StreamSocket.obj
+.\Debug\XmudOS.res
+]
+Creating command line "link.exe @C:\DOCUME~1\gandy23\LOCALS~1\Temp\RSP679.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+e:\program files\microsoft visual studio\vc98\include\shlguid.h(181) : fatal error C1083: Cannot open include file: 'exdisp.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+XmudOS_debug.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -7,7 +7,17 @@
 /XmudOS/Npc/x64
 /XmudOS/Skill/x64
 /XmudOS/lib
-
+Debug
+Release
+Goods/Debug
+Goods/Release
+map/Debug
+map/Release
+npc/Debug
+npc/Release
+skill/Debug
+skill/Release
+lib
 # OS
 .DS_Store
 .vs

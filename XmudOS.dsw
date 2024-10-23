@@ -1,0 +1,101 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Goods"=".\goods\Goods.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Goods", XTCAAAAA
+    ..\..\xmudos\goods
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Npc"=".\npc\Npc.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Npc", CVCAAAAA
+    ..\..\xmudos\npc
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Skill"=".\Skill\Skill.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/Skill", WADAAAAA
+    ..\..\xmudos\skill
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "XmudOS"=".\XmudOS.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/XMudOS", MEAAAAAA
+    ..\..\xmudos
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "map"=".\map\map.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/map", TUCAAAAA
+    ..\..\xmudos\map
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/XmudOS", VTCAAAAA
+    ..\..\xmudos
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

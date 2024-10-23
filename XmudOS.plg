@@ -1,0 +1,155 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XmudOS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/XmudOS.res" /d "NDEBUG" /d "_AFXDLL" "D:\打祘Α\XmudOS\XmudOS.rc"" 
+Creating temporary file "C:\DOCUME~1\kjl\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MD /GR /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/XmudOS.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\打祘Α\XmudOS\ActiveObject.cpp"
+"D:\打祘Α\XmudOS\CmdApprentice.cpp"
+"D:\打祘Α\XmudOS\CmdAsk.cpp"
+"D:\打祘Α\XmudOS\CmdChangeMap.cpp"
+"D:\打祘Α\XmudOS\CmdChannelTalk.cpp"
+"D:\打祘Α\XmudOS\CmdCreateNewPlayer.cpp"
+"D:\打祘Α\XmudOS\CmdDaZuoAndTuNa.cpp"
+"D:\打祘Α\XmudOS\CmdDrinkAndEat.cpp"
+"D:\打祘Α\XmudOS\CmdEmote.cpp"
+"D:\打祘Α\XmudOS\CmdGiveDropPick.cpp"
+"D:\打祘Α\XmudOS\CmdKillProc.cpp"
+"D:\打祘Α\XmudOS\CmdLearn.cpp"
+"D:\打祘Α\XmudOS\CmdOffLine.cpp"
+"D:\打祘Α\XmudOS\CmdPlayerLogon.cpp"
+"D:\打祘Α\XmudOS\CmdPlayerLogonGetData.cpp"
+"D:\打祘Α\XmudOS\CmdPractice.cpp"
+"D:\打祘Α\XmudOS\CmdUserLogon.cpp"
+"D:\打祘Α\XmudOS\CmdWieldAndUnW.cpp"
+"D:\打祘Α\XmudOS\combat.cpp"
+"D:\打祘Α\XmudOS\commandcheck.cpp"
+"D:\打祘Α\XmudOS\Condition.cpp"
+"D:\打祘Α\XmudOS\Fight.cpp"
+"D:\打祘Α\XmudOS\hash.cpp"
+"D:\打祘Α\XmudOS\HeartBeat.cpp"
+"D:\打祘Α\XmudOS\LoadAllNeedFill.cpp"
+"D:\打祘Α\XmudOS\LoadGameFile.cpp"
+"D:\打祘Α\XmudOS\MainWnd.cpp"
+"D:\打祘Α\XmudOS\npc\map\dainty\N_BankMaster.cpp"
+"D:\打祘Α\XmudOS\npc\map\guanhua\N_EventNpc.cpp"
+"D:\打祘Α\XmudOS\PlayerInfo.cpp"
+"D:\打祘Α\XmudOS\ShowMsg.cpp"
+"D:\打祘Α\XmudOS\SpecialActEnd.cpp"
+"D:\打祘Α\XmudOS\ThreadPlayer.cpp"
+"D:\打祘Α\XmudOS\XmudOS.cpp"
+"D:\打祘Α\XmudOS\wgs\Common.cpp"
+"D:\打祘Α\XmudOS\wgs\DS_API.cpp"
+"D:\打祘Α\XmudOS\wgs\StreamSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kjl\LOCALS~1\Temp\RSP15.tmp" 
+Creating temporary file "C:\DOCUME~1\kjl\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+/nologo /MD /GR /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/XmudOS.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\打祘Α\XmudOS\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kjl\LOCALS~1\Temp\RSP16.tmp" 
+Creating temporary file "C:\DOCUME~1\kjl\LOCALS~1\Temp\RSP17.tmp" with contents
+[
+lib\Goods.lib lib\Npc.lib lib\Skill.lib lib\map.lib /nologo /subsystem:windows /incremental:yes /pdb:"Release/XmudOS_Release.pdb" /machine:I386 /out:"..\exe\XmudOS_Release.exe" 
+".\Release\ActiveObject.obj"
+".\Release\CmdApprentice.obj"
+".\Release\CmdAsk.obj"
+".\Release\CmdChangeMap.obj"
+".\Release\CmdChannelTalk.obj"
+".\Release\CmdCreateNewPlayer.obj"
+".\Release\CmdDaZuoAndTuNa.obj"
+".\Release\CmdDrinkAndEat.obj"
+".\Release\CmdEmote.obj"
+".\Release\CmdGiveDropPick.obj"
+".\Release\CmdKillProc.obj"
+".\Release\CmdLearn.obj"
+".\Release\CmdOffLine.obj"
+".\Release\CmdPlayerLogon.obj"
+".\Release\CmdPlayerLogonGetData.obj"
+".\Release\CmdPractice.obj"
+".\Release\CmdUserLogon.obj"
+".\Release\CmdWieldAndUnW.obj"
+".\Release\combat.obj"
+".\Release\commandcheck.obj"
+".\Release\Condition.obj"
+".\Release\Fight.obj"
+".\Release\hash.obj"
+".\Release\HeartBeat.obj"
+".\Release\LoadAllNeedFill.obj"
+".\Release\LoadGameFile.obj"
+".\Release\MainWnd.obj"
+".\Release\N_BankMaster.obj"
+".\Release\N_EventNpc.obj"
+".\Release\PlayerInfo.obj"
+".\Release\ShowMsg.obj"
+".\Release\SpecialActEnd.obj"
+".\Release\StdAfx.obj"
+".\Release\ThreadPlayer.obj"
+".\Release\XmudOS.obj"
+".\Release\Common.obj"
+".\Release\DS_API.obj"
+".\Release\StreamSocket.obj"
+".\Release\XmudOS.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\kjl\LOCALS~1\Temp\RSP17.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ActiveObject.cpp
+CmdApprentice.cpp
+CmdAsk.cpp
+CmdChangeMap.cpp
+CmdChannelTalk.cpp
+CmdCreateNewPlayer.cpp
+CmdDaZuoAndTuNa.cpp
+CmdDrinkAndEat.cpp
+CmdEmote.cpp
+CmdGiveDropPick.cpp
+CmdKillProc.cpp
+CmdLearn.cpp
+CmdOffLine.cpp
+CmdPlayerLogon.cpp
+CmdPlayerLogonGetData.cpp
+CmdPractice.cpp
+CmdUserLogon.cpp
+CmdWieldAndUnW.cpp
+combat.cpp
+commandcheck.cpp
+Generating Code...
+Compiling...
+Condition.cpp
+Fight.cpp
+hash.cpp
+HeartBeat.cpp
+LoadAllNeedFill.cpp
+LoadGameFile.cpp
+MainWnd.cpp
+N_BankMaster.cpp
+N_EventNpc.cpp
+PlayerInfo.cpp
+ShowMsg.cpp
+SpecialActEnd.cpp
+ThreadPlayer.cpp
+XmudOS.cpp
+Common.cpp
+DS_API.cpp
+StreamSocket.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+XmudOS_Release.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
